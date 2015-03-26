@@ -7,7 +7,7 @@ ENV JAVA_VERSION_BUILD 25
 ENV JAVA_PACKAGE       jdk
 
 RUN apt-get update &&\
-  DEBIAN_FRONTEND=noninteractive apt-get install -y curl &&\
+  DEBIAN_FRONTEND=noninteractive apt-get install -y wget curl &&\
   rm -rf /tmp/* /var/tmp/* &&\
   rm -rf /var/lib/apt/lists/*
 
