@@ -1,4 +1,4 @@
-FROM ubuntu:14.04.2
+FROM buildpack-deps:trusty-curl
 MAINTAINER Sebastian Otaegui <feniix@gmail.com>
 
 ENV JAVA_VERSION_MAJOR 8
